@@ -9,19 +9,21 @@
 
 ### Debian
 
-- `v0.12-debian-cloudwatch` [(v0.12/debian-cloudwatch/Dockerfile)][debian-cloudwatch-dockerfile]
-- `v0.12-debian-elasticsearch` [(v0.12/debian-elasticsearch/Dockerfile)][debian-elasticsearch-dockerfile]
-- `v0.12-debian-logentries` [(v0.12/debian-logentries/Dockerfile)][debian-logentries-dockerfile]
-- `v0.12-debian-loggly` [(v0.12/debian-loggly/Dockerfile)][debian-loggly-dockerfile]
-- `v0.12-debian-s3` [(v0.12/debian-s3/Dockerfile)][debian-s3-dockerfile]
-- `v0.12-debian-stackdriver` [(v0.12/debian-stackdriver/Dockerfile)][debian-stackdriver-dockerfile]
+- `v0.14-debian-cloudwatch` [(v0.14/debian-cloudwatch/Dockerfile)][debian-cloudwatch-dockerfile]
+- `v0.14-debian-elasticsearch` [(v0.14/debian-elasticsearch/Dockerfile)][debian-elasticsearch-dockerfile]
+- `v0.14-debian-kafka` [(v0.14/debian-kafka/Dockerfile)][debian-kafka-dockerfile]
+- `v0.14-debian-logentries` [(v0.14/debian-logentries/Dockerfile)][debian-logentries-dockerfile]
+- `v0.14-debian-loggly` [(v0.14/debian-loggly/Dockerfile)][debian-loggly-dockerfile]
+- `v0.14-debian-s3` [(v0.14/debian-s3/Dockerfile)][debian-s3-dockerfile]
+- `v0.14-debian-stackdriver` [(v0.14/debian-stackdriver/Dockerfile)][debian-stackdriver-dockerfile]
 
 ### Alpine Linux
 
-- `v0.12-alpine-cloudwatch` [(v0.12/alpine-cloudwatch/Dockerfile)][alpine-cloudwatch-dockerfile]
-- `v0.12-alpine-elasticsearch` [(v0.12/alpine-elasticsearch/Dockerfile)][alpine-elasticsearch-dockerfile]
-- `v0.12-alpine-logentries` [(v0.12/alpine-logentries/Dockerfile)][alpine-logentries-dockerfile]
-- `v0.12-alpine-loggly` [(v0.12/alpine-loggly/Dockerfile)][alpine-loggly-dockerfile]
+- `v0.14-alpine-cloudwatch` [(v0.14/alpine-cloudwatch/Dockerfile)][alpine-cloudwatch-dockerfile]
+- `v0.14-alpine-elasticsearch` [(v0.14/alpine-elasticsearch/Dockerfile)][alpine-elasticsearch-dockerfile]
+- `v0.14-alpine-kafka` [(v0.14/alpine-kafka/Dockerfile)][alpine-kafka-dockerfile]
+- `v0.14-alpine-logentries` [(v0.14/alpine-logentries/Dockerfile)][alpine-logentries-dockerfile]
+- `v0.14-alpine-loggly` [(v0.14/alpine-loggly/Dockerfile)][alpine-loggly-dockerfile]
 
 ## What is Fluentd?
 
@@ -41,7 +43,7 @@ Fluentd versioning is as follows:
 
 | Series | Description                         |
 |--------|-------------------------------------|
-| v0.12  | Stable, production ready            |
+| v0.14  | Stable, production ready            |
 | v0.14  | Development, next stable (Q3 2017)  |
 
 ### References
@@ -59,19 +61,21 @@ through a [GitHub issue](https://github.com/fluent/fluentd-kubernetes-daemonset/
 [alpine-home]: http://alpinelinux.org
 [alpine-dockerhub]: https://hub.docker.com/_/alpine
 [debian-dockerhub]: https://hub.docker.com/_/debian
-[fluentd-article]: http://docs.fluentd.org/v0.12/articles/kubernetes-fluentd
+[fluentd-article]: http://docs.fluentd.org/v0.14/articles/kubernetes-fluentd
 
-[alpine-elasticsearch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/alpine-elasticsearch/Dockerfile
-[alpine-loggly-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/alpine-loggly/Dockerfile
-[alpine-logentries-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/alpine-logentries/Dockerfile
-[alpine-cloudwatch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/alpine-cloudwatch/Dockerfile
-[alpine-s3-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/alpine-s3/Dockerfile
+[alpine-elasticsearch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/alpine-elasticsearch/Dockerfile
+[alpine-loggly-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/alpine-loggly/Dockerfile
+[alpine-logentries-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/alpine-logentries/Dockerfile
+[alpine-cloudwatch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/alpine-cloudwatch/Dockerfile
+[alpine-s3-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/alpine-s3/Dockerfile
+[alpine-kafka-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/alpine-kafka/Dockerfile
 
-[debian-elasticsearch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/debian-elasticsearch/Dockerfile
-[debian-loggly-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/debian-loggly/Dockerfile
-[debian-logentries-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/debian-logentries/Dockerfile
-[debian-cloudwatch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/debian-cloudwatch/Dockerfile
-[debian-s3-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.12/debian-s3/Dockerfile
+[debian-elasticsearch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/debian-elasticsearch/Dockerfile
+[debian-loggly-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/debian-loggly/Dockerfile
+[debian-logentries-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/debian-logentries/Dockerfile
+[debian-cloudwatch-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/debian-cloudwatch/Dockerfile
+[debian-s3-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/debian-s3/Dockerfile
+[debian-kafka-dockerfile]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/docker-image/v0.14/debian-kafka/Dockerfile
 
 ## About Enterprise Edition
 
